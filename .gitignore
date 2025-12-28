@@ -1,0 +1,63 @@
+# Dependencies
+node_modules
+package-lock.json.backup
+
+# Build outputs
+dist
+storybook-static
+build
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage
+.nyc_output
+*.lcov
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Cache
+.cache
+.eslintcache
+.parcel-cache
+.webpack
+.storybook-static
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+.vs
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+.tmp
+.temp

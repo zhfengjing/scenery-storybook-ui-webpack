@@ -1,0 +1,15 @@
+src
+.storybook
+storybook-static
+*.stories.tsx
+*.test.tsx
+*.test.ts
+.git
+.gitignore
+node_modules
+webpack.config.js
+tsconfig.json
+tailwind.config.js
+postcss.config.js
+.DS_Store
+*.log
