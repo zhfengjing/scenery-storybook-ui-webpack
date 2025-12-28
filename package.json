@@ -12,7 +12,7 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build --output-dir storybook-static",
     "prepublishOnly": "npm run build",
     "version:patch": "npm version patch",
     "version:minor": "npm version minor",
